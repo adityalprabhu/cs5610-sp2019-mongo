@@ -1,4 +1,4 @@
-const studentDao = require('../daos/university.dao.server')
+const studentDao = require('../daos/student.dao.server')
 
 module.exports = app => {
     createStudent = (req, res) => {

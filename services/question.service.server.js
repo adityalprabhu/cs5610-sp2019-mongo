@@ -1,4 +1,4 @@
-const questionDao = require('../daos/university.dao.server');
+const questionDao = require('../daos/question.dao.server');
 
 module.exports = app => {
     createQuestion = (req, res) =>
