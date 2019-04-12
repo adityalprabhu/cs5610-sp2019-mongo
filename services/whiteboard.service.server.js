@@ -1,4 +1,4 @@
-const dao = require('../daos/university.dao.server');
+const dao = require('../daos/whiteboard.dao.server');
 
 module.exports = app => {
     populateDatabase = (req, res) =>

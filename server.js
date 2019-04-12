@@ -27,12 +27,12 @@ app.use(function(req, res, next) {
     next();
 });
 
-const universityService = require('./services/university.service.server');
+const whiteboardService = require('./services/whiteboard.service.server');
 const studentService = require('./services/student.service.server');
 const questionService = require('./services/question.service.server');
 const answerService = require('./services/answer.service.server');
 
-universityService(app);
+whiteboardService(app);
 studentService(app);
 questionService(app);
 answerService(app)
